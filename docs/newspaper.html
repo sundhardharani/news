@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Daily Herald</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #fff;
+      color: #000;
+      padding: 40px;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid black;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 5px;
+      font-style: italic;
+    }
+
+    .newspaper {
+      column-count: 2;
+      column-gap: 40px;
+      column-rule: 1px solid #aaa;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    article {
+      break-inside: avoid;
+      margin-bottom: 40px;
+    }
+
+    article h2 {
+      font-size: 1.6em;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid black;
+      padding-bottom: 3px;
+    }
+
+    article p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    footer {
+      border-top: 1px solid #000;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Daily Herald</h1>
+    <p>Established 1885 &mdash; Saturday, August 9, 2025</p>
+  </header>
+
+  <section class="newspaper">
+    <article>
+      <h2>Breakthrough in Climate Research</h2>
+      <img src="https://th.bing.com/th/id/OIP.i9DC2xI0zy6QNiza5H4G_wHaEt?w=283&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+      <p>
+        A team of international scientists has developed a new climate model that more accurately predicts global temperature shifts. This innovation is expected to inform future policy decisions and reshape global climate strategies.
+      </p>
+    </article>
+
+    <article>
+      <h2>City Approves New Public Transit Plan</h2>
+      <p>
+        After months of debate, the city council has approved a $2.4 billion public transportation initiative aimed at reducing urban congestion. The plan includes new rail lines, bus routes, and cycling infrastructure.
+      </p>
+    </article>
+
+    <article>
+      <h2>Historic Artifact Found in Europe</h2>
+      <p>
+        Archaeologists in southern France have uncovered a rare Roman-era tablet believed to date back to the first century A.D. The artifact is in remarkably good condition and will be displayed at the national museum later this year.
+      </p>
+    </article>
+
+    <article>
+      <h2>Sports: Underdogs Take the Lead</h2>
+      <p>
+        In a shocking upset, the Coastal City Hawks defeated the league’s top team in a thrilling overtime victory. Fans flooded social media with reactions, praising the team’s determination and underdog spirit.
+      </p>
+    </article>
+  </section>
+
+  <footer>
+    &copy; 2025 The Daily Herald. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
